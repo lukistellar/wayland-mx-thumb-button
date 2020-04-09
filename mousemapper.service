@@ -3,7 +3,7 @@ Description=Mouse button mapping that works on wayland
 After=display-manager.service
 
 [Service]
-ExecStart=/opt/wayland-mx-thumb-button/mousemapper
+ExecStart=/opt/wayland-mx-thumb-button/mousemapper.sh
 
 [Install]
 WantedBy=multi-user.target
