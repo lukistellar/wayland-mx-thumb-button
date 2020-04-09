@@ -3,11 +3,9 @@ This script should map the thumb button of my first generation Logitech MX Maste
 
 Since the thumb button of my MX Master is named with three asterisks, the original script by mathportillo (https://github.com/mathportillo/wayland-mouse-mapper) will not work.
 
-I made this script as a quick fix, based on the original one. It should work with a 1st gen MX Master out of the box, the default action on click will show the gnome overview.
+I made this script as a quick fix, based on the original one. It should work out of the box with a 1st gen MX Master, the default action on click will show the gnome overview.
 
-This script is based on reading events from `libinput`, emulating keys using `evemu` and should work on wayland.
-
-A small script for mapping mouse buttons to keystrokes on Wayland.
+This script is based on reading events from `libinput`, emulating keystrokes using `evemu` and should work on wayland.
 
 ## Prerequisites
 The script depends on the following executables being available in your PATH:
